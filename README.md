@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# City Taxi Fare Prediction
 
-## Project info
+## 📌 Project Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**City Taxi Fare Prediction** is a modern web application that helps users estimate taxi fares based on trip details such as distance, time, and other relevant parameters. The application is designed with a clean, responsive UI and focuses on usability, performance, and scalability.
 
-## How can I edit this code?
+This project serves as a strong frontend foundation for data-driven systems and can be extended with machine learning models or APIs for real-time fare prediction.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* 📍 User-friendly interface for fare estimation
+* ⚡ Fast and lightweight frontend using **Vite**
+* 🎨 Responsive and modern UI with **Tailwind CSS** and **shadcn/ui**
+* 🧩 Component-based architecture with **React + TypeScript**
+* 🔌 Easily extendable to integrate ML models or backend APIs
+* 🌐 SEO-friendly and production-ready setup
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Frontend Framework:** React
+* **Build Tool:** Vite
+* **Language:** TypeScript
+* **UI Components:** shadcn/ui
+* **Styling:** Tailwind CSS
+* **Package Manager:** npm / bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Project Structure
+
+```
+city-taxi-fair/
+│── public/            # Static assets
+│── src/               # Application source code
+│── components/        # Reusable UI components
+│── package.json       # Project metadata and scripts
+│── tailwind.config.js # Tailwind configuration
+│── vite.config.ts     # Vite configuration
+│── README.md          # Project documentation
+```
+
+---
+
+## ▶️ Getting Started
+
+### Prerequisites
+
+* Node.js (LTS recommended)
+* npm or bun
+
+### Installation & Run
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open your browser and visit:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌱 Future Enhancements
 
-## What technologies are used for this project?
+* Integration with **machine learning models** for accurate fare prediction
+* Real-time pricing using live traffic and distance APIs
+* Backend integration using **Node.js / Python (Flask or FastAPI)**
+* User authentication and trip history
+* Deployment to cloud platforms (Vercel, Netlify)
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contributing
 
-## How can I deploy this project?
+Contributions are welcome! Feel free to fork the repository, create a feature branch, and submit a pull request.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is open-source and available under the MIT License.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+⭐ If you find this project useful, consider giving it a star!
